@@ -4,13 +4,16 @@
   "description": "- database modeling.\r - migration scripts.\r - seeding.\r - knex.",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.17.1",
     "init": "^0.1.2",
     "knex": "^0.21.5",
+    "nodemon": "^2.0.4",
     "sqlite3": "^5.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
